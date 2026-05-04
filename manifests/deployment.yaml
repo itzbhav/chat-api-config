@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: chat-api
-          image: bhavs143/chat-api:8a0ee350ddc2b6e140ee314c53357ff7f74b3219
+          image: bhavs143/chat-api:1bfabce83af94238ac1b4494b9f565f6ab79e5ba
           ports:
             - containerPort: 8000
           env:
